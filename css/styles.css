@@ -2,8 +2,9 @@ body {
     background: #FFFFFF;
     color:#212121 ;
 }
-
-
+.list {
+list-style: none ;
+}
 
 /* основной цвет текста #212121*/
 /* вторичній цвет текста #757575*/
@@ -12,3 +13,27 @@ body {
 /*цвет ссілок в футере rgba(255, 255, 255, 0.6); */
 /* цвет background секции hero и футера #2F303A*/
 /*цвет background секции  #F5F4FA */
+
+/* стилизация логотипа */
+.logo {
+    color:#2196F3;
+}
+.multi{
+    color: #000;
+}
+/* стилизация nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+}
+/* стилизация связи */
+.connection .link{
+    color:#757575 ;
+}
+.connection .link:hover,
+.connection .link:focus {
+color: #2196F3;
+}
