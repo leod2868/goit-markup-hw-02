@@ -77,3 +77,7 @@ background: var(--secondary-background-color) ;
 .contacts-link {
   color: var(--footer-text-color);  
 }
+.button {
+ color: var(--white-coior);
+ background-color: var(--accent-color);   
+}
