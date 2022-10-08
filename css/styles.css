@@ -62,3 +62,18 @@ background: var(--secondary-background-color) ;
 .hero-title {
  color: var(--white-coior) ;   
 }
+.footer{
+ background: var(--secondary-background-color) ;   
+}
+.footer-logo {
+  color: var(--white-coior);  
+}
+.footer-multi {
+  color: var(--accent-color);  
+}
+.contacts-addres {
+  color: var(--white-coior);  
+}
+.contacts-link {
+  color: var(--footer-text-color);  
+}
