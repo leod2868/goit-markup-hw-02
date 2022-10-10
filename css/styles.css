@@ -18,8 +18,10 @@
 }
 
 body {
-    background: var(--primary-background-color);
+    background-color: var(--primary-background-color);
     color : var(--primary-text-color) ;
+    font-family: roboto , sans-serif ;
+    letter-spacing: 0.03em;
 }
 .list {
 list-style: none ;
@@ -33,6 +35,10 @@ background: var(--white-coior) ;
 .roof-logo {
     color: var(--accent-color) ;
     text-decoration: none;
+    font-family: Raleway , sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 }
 .roof-multi{
     color: var(--black-color) ;
@@ -41,6 +47,10 @@ background: var(--white-coior) ;
 .roof-nav-link {
     color: var(--title-text-color) ;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 .roof-nav-link:hover,
 .roof-nav-link:focus {
@@ -50,6 +60,10 @@ background: var(--white-coior) ;
 .roof-connection-link{
     color: var(--primary-text-color) ;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14 ;
+    letter-spacing: 0.02em
 }
 .roof-connection-link:hover,
 .roof-connection-link:focus {
@@ -63,15 +77,26 @@ color: var(--accent-color);
 background: var(--secondary-background-color) ;
 }
 .hero-title {
- color: var(--white-coior) ;   
+ color: var(--white-coior) ;
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1,36;
+ text-align: center;
+ letter-spacing: 0.06em
 }
 .footer{
- background: var(--secondary-background-color) ;   
+ background: var(--secondary-background-color) ; 
+ 
 }
 .footer-logo {
   color: var(--white-coior);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19;
 }
+  
 .footer-multi {
   color: var(--accent-color);  
 }
