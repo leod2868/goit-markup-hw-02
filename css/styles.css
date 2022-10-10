@@ -32,6 +32,7 @@ background: var(--white-coior) ;
 /* стилизация логотипа */
 .roof-logo {
     color: var(--accent-color) ;
+    text-decoration: none;
 }
 .roof-multi{
     color: var(--black-color) ;
@@ -39,6 +40,7 @@ background: var(--white-coior) ;
 /* стилизация nav */
 .roof-nav-link {
     color: var(--title-text-color) ;
+    text-decoration: none;
 }
 .roof-nav-link:hover,
 .roof-nav-link:focus {
@@ -47,6 +49,7 @@ background: var(--white-coior) ;
 /* стилизация connection */
 .roof-connection-link{
     color: var(--primary-text-color) ;
+    text-decoration: none;
 }
 .roof-connection-link:hover,
 .roof-connection-link:focus {
@@ -66,16 +69,19 @@ background: var(--secondary-background-color) ;
  background: var(--secondary-background-color) ;   
 }
 .footer-logo {
-  color: var(--white-coior);  
+  color: var(--white-coior);
+  text-decoration: none;
 }
 .footer-multi {
   color: var(--accent-color);  
 }
 .contacts-addres {
-  color: var(--white-coior);  
+  color: var(--white-coior); 
+  text-decoration: none;
 }
 .contacts-link {
-  color: var(--footer-text-color);  
+  color: var(--footer-text-color); 
+  text-decoration: none;
 }
 .button {
  color: var(--white-coior);
