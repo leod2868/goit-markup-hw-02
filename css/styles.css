@@ -59,7 +59,8 @@ background: var(--white-coior) ;
 .roof-nav-link:focus {
     color: var(--accent-color) ;
 }
-.roof-nav-link .current {
+/* спроба підсвітити назву активної сторінки,але не вийшло */
+ .roof-nav-link .current {
   color: var(--accent-color);
 }
 /* стилизация connection */
