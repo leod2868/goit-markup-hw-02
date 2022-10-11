@@ -19,21 +19,16 @@
 }
 
 body {
-    background-color: var(--primary-background-color);
+    background-color: var(--white-colore);
     color : var(--primary-text-color) ;
     font-family: roboto , sans-serif ;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.7;
 }
 .list {
 list-style: none ;
 }
 
-/* цвет фона header белій*/
-.roof {
-background: var(--white-coior) ;
-}
 /* стилизация логотипа */
 .roof-logo {
     color: var(--accent-color) ;
@@ -101,6 +96,7 @@ background: var(--secondary-background-color) ;
   line-height: 1.9 ;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* стилизація трьох секцій */
 .advantage .sechion-title {
@@ -108,7 +104,7 @@ background: var(--secondary-background-color) ;
   font-size: 14px;
   line-height: 16px;
 } 
-h2 {
+.development {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17 ;
@@ -146,6 +142,12 @@ h2 {
   color: var(--footer-text-color); 
   text-decoration: none;
 }
+.contacts-addres:hover ,
+.contacts-addres:focus ,
+.contacts-link:hover ,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
 address {
   font-style: normal
 }
@@ -157,19 +159,40 @@ address {
  font-weight: 500;
  font-size: 16px;
  line-height: 1.6 ;
+ cursor: pointer;
+
 }
 .new-button:hover,
 .new-button:focus {
   color: var(--white-coior);
   background-color: var(--accent-color)
 }
-h4 {
+.card {
    font-weight: 700;
    font-size: 18px;
    line-height: 2.0;
-    letter-spacing: 0.06em;
+   letter-spacing: 0.06em;
 }
 .sechion-text {
    font-size: 16px;
    line-height:1.9 ;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.activity , .benefits , .filter {
+  background-color: var(--primary-background-color);
+}
+.crew {
+  background-color: var(--thirdly-background-color);
 }
